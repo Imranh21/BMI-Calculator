@@ -2,4 +2,4 @@
 
 ![](images/bmi%20Calculator.jpg)
 
-**Live** ***www.bmic.netlify.com***
+**Live** ***https://bmic.netlify.com/***
