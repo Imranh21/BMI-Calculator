@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/bg-img.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+form {
+	width: 300px;
+	background: #222;
+	padding: 20px 20px;
+	box-shadow: 0 0 15px 25px rgba(0,0,0,.2);
+	border-radius: 5px;
+}
+h1 {
+	margin: 10px 0;
+	color: #fff;
+}
+input {
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px 15px;
+	background: #000;
+	font-size: 16px;
+	color: #fff;
+}
+
+.btn {
+	cursor: pointer;
+	background: #663399;
+	color: #fff;
+	font-size: 16px;
+}
+.data {
+	text-align: center;
+}
+
+.reset {
+	cursor: pointer;
+	color: #fff;
+}
+
+.output {
+	font-size: 24px;
+}
+p {
+	color: #fff;
+	font-size: 14px;
+	margin: 20px 5px 10px 0;
+}
+span {
+	margin-left: 5px;
+}
